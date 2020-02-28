@@ -1,0 +1,9 @@
+git clone github.com/wolfmib/test_mod test_mod
+cd test_mod
+go init
+vi add/add.go
+vi main.go
+go run main.go
+go mod vendor
+go build
+go test all
